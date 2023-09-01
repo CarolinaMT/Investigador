@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestigadorAPI", "InvestigadorAPI\InvestigadorAPI.csproj", "{ACFD6528-4AAE-4E4F-B22C-CEC826412007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestigadorWEB", "InvestigadorWEB\InvestigadorWEB.csproj", "{1E89F60C-B5DE-4AFD-997A-F46BC2AD1A44}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFD6528-4AAE-4E4F-B22C-CEC826412007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFD6528-4AAE-4E4F-B22C-CEC826412007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFD6528-4AAE-4E4F-B22C-CEC826412007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFD6528-4AAE-4E4F-B22C-CEC826412007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E89F60C-B5DE-4AFD-997A-F46BC2AD1A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E89F60C-B5DE-4AFD-997A-F46BC2AD1A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E89F60C-B5DE-4AFD-997A-F46BC2AD1A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E89F60C-B5DE-4AFD-997A-F46BC2AD1A44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
